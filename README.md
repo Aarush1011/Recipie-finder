@@ -44,6 +44,7 @@ def indian():
     def selection2():
         select2=str(radio2.get())
     print("You can order all the ingredients from bigbasket from our calculations, link - https://www.bigbasket.com/")
+    print("If you order from big basket you will get 12% off")
     rb1=Radiobutton(root,text='Crispy Dosa',variable=radio2,value='veg',command=selection2)
     rb1.place(x=800,y=250)
     rb2=Radiobutton(root,text='Idli',variable=radio2,value='veg2',command=selection2)
@@ -77,6 +78,7 @@ def mexican():
     def selection2():
         select2=str(radio2.get())
     print("You can order all the ingredients from amazon from our calculations, link - https://www.amazon.in/alm/storefront?almBrandId=ctnow")
+    print("If you order from amazon you will get 8% off")
     rb1=Radiobutton(root,text='7 layer burrito',variable=radio2,value='veg',command=selection2)
     rb1.place(x=800,y=250)
     rb2=Radiobutton(root,text='chimichanga',variable=radio2,value='veg2',command=selection2)
@@ -108,6 +110,7 @@ def italian():
     def selection2():
         select2=str(radio2.get())
     print("You can order all the ingredients from tata from our calculations, link - https://www.bigbasket.com/")
+    print("If you order from big basket you will get 10% off")
     rb1=Radiobutton(root,text='White Pasta',variable=radio2,value='veg',command=selection2)
     rb1.place(x=800,y=250)
     rb2=Radiobutton(root,text='Cheese Pizza',variable=radio2,value='veg2',command=selection2)
